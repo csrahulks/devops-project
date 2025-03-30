@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone the project') {
+            steps {
+                git branch: 'master', url: 'https://github.com/uday5252/flask-web-app.git'
+            }
+        }
+    }
+}

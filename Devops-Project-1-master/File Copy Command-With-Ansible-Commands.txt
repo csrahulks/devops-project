@@ -1,0 +1,31 @@
+Command ::::>>>>>>  >scp -i "dockerkey.pem" dockerkey.pem ubuntu@15.206.67.244:/home/ubuntu/keyinfo
+
+
+
+sudo mkdir -p /home/ubuntu/keyinfo
+sudo chown ubuntu:ubuntu /home/ubuntu/keyinfo --------->>>>>If getting error (Permission Denied)
+
+
+ubuntu@ip-10-0-1-102:~/playbooks$ history
+    1  sudo su -
+    2  clear
+    3  cd /home/ubuntu/
+    4  ls
+    5  cd playbooks/
+    6  vi jenkins-playbook.yaml
+    7  ansible-playbook -i /etc/ansible/hosts jenkins-playbook.yaml    :::::::------>>>>>> Command For Running the playbook in Ansible
+    8  vi jenkins-playbook.yaml
+    9  rm jenkins-playbook.yaml
+   10  vi jenkins-playbook.yaml
+   11  ansible-playbook -i /etc/ansible/hosts jenkins-playbook.yaml
+   12  ansible --version
+   13  vi jenkins-playbook.yaml
+   14  ansible-playbook -i /etc/ansible/hosts jenkins-playbook.yaml
+   15  ls
+   16  clear
+   17  history
+
+
+
+
+
